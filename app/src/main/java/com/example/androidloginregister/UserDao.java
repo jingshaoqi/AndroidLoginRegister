@@ -18,7 +18,9 @@ public class UserDao extends MySQLConnection{
             {
                 //.next()表示指针先下一行，若有数据则返回true
                 user=new User();
-                user.setUsername(resultSet.getString("username"));
+                String s = resultSet.getString("username");
+                int score = resultSet.getInt("score");
+                user.setUsername(s);
             }
         }catch (Exception e){
             e.printStackTrace();
