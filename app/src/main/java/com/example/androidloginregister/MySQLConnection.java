@@ -9,11 +9,11 @@ import java.sql.ResultSet;
 
 public class MySQLConnection {
     //要连接MySQL数据库的URL    URL_MySQL="jdbc:mysql://外网地址:端口/数据库名称"
-    public static final String URL_MySQL="jdbc:mysql://外网地址:端口/数据库名称";
+    public static final String URL_MySQL="jdbc:mysql://192.168.9.88:3306/ccc";
     //要连接MySQL数据库的用户名  NAME_MySQL="MySQL用户名"
-    public static final String NAME_MySQL="MySQL用户名";
+    public static final String NAME_MySQL="ccc";
     //要连接MySQL数据库的密码    PASSWORD_MySQL="MySQL密码"
-    public static final String PASSWORD_MySQL="MySQL密码";
+    public static final String PASSWORD_MySQL="ccc123!@#{}";
 
     //使用PreparedStatement来执行SQL语句查询
     public static PreparedStatement preparedStatement;
